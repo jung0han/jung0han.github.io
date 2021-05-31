@@ -15,7 +15,7 @@ module.exports = {
   },
   themeConfig: {
     navbar: {
-      title: "blog",
+      title: "Dongwoo",
       logo: {
         alt: "Logo",
         src: "img/logo.svg",
@@ -25,9 +25,9 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial",
+          label: "Doc",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           type: "localeDropdown",
           position: "right",

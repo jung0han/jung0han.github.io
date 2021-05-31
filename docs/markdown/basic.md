@@ -1,7 +1,8 @@
 ---
-id: basic
-title: basic
+sidebar_position: 1
 ---
+
+# Basic
 
 ### Line Breaks
 
