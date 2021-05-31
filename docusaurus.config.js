@@ -10,7 +10,7 @@ module.exports = {
   organizationName: "jung0han", // Usually your GitHub org/user name.
   projectName: "jung0han.github.io", // Usually your repo name.
   i18n: {
-    defaultLocale: "ko",
+    defaultLocale: "en",
     locales: ["en", "ko"],
   },
   themeConfig: {
