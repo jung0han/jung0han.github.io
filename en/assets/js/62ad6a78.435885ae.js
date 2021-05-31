@@ -1,0 +1,1 @@
+(self.webpackChunkjung_0_han_github_io=self.webpackChunkjung_0_han_github_io||[]).push([[434],{4032:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/en/blog/tags/facebook"}')}}]);
