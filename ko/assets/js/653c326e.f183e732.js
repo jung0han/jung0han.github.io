@@ -1,0 +1,1 @@
+(self.webpackChunkjung_0_han_github_io=self.webpackChunkjung_0_han_github_io||[]).push([[353],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/ko/blog/welcome"},{"title":"Hello","permalink":"/ko/blog/hello-world"},{"title":"Hola","permalink":"/ko/blog/hola"}]}')}}]);

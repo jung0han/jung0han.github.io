@@ -1,1 +1,0 @@
-(self.webpackChunkjung_0_han_github_io=self.webpackChunkjung_0_han_github_io||[]).push([[34],{1983:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/en/blog/tags/hola"}')}}]);
