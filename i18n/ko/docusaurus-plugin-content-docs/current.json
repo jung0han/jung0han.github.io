@@ -12,7 +12,11 @@
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.markdown": {
-    "message": "markdown",
+    "message": "마크다운",
+    "description": "The label for category markdown in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.markdown.basic": {
+    "message": "기본",
     "description": "The label for category markdown in sidebar tutorialSidebar"
   }
 }
