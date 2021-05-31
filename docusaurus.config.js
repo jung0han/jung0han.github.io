@@ -30,7 +30,7 @@ module.exports = {
         { to: "/blog", label: "Blog", position: "left" },
         {
           type: "localeDropdown",
-          position: "left",
+          position: "right",
         },
       ],
     },
