@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Basic guide",
+  tagline: "React are cool",
   url: "https://jung0han.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -9,6 +9,10 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "jung0han", // Usually your GitHub org/user name.
   projectName: "jung0han.github.io", // Usually your repo name.
+  i18n: {
+    defaultLocale: "ko",
+    locales: ["en", "ko"],
+  },
   themeConfig: {
     navbar: {
       title: "blog",
@@ -25,9 +29,8 @@ module.exports = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
+          type: "localeDropdown",
+          position: "left",
         },
       ],
     },
@@ -61,12 +64,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/jung0han",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Basic Guide, Inc. Built with React.`,
     },
   },
   presets: [
