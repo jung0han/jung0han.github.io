@@ -1,4 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const math = require("remark-math");
+const katex = require("rehype-katex");
+
 module.exports = {
   title: "Basic guide",
   tagline: "React are cool",
@@ -13,6 +16,15 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en", "ko"],
   },
+  stylesheets: [
+    {
+      href: "/katex/katex.min.css",
+      type: "text/css",
+      integrity:
+        "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
+      crossorigin: "anonymous",
+    },
+  ],
   themeConfig: {
     navbar: {
       title: "Dongwoo",
@@ -77,6 +89,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
